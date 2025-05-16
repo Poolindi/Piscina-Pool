@@ -1,0 +1,5 @@
+document.getElementById("form-contato").addEventListener("submit", function(event) {
+  event.preventDefault();
+  document.getElementById("mensagem-sucesso").style.display = "block";
+  this.reset();
+});
